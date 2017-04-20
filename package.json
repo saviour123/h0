@@ -1,0 +1,22 @@
+{
+  "name": "h0",
+  "version": "1.0.0",
+  "description": "Getting started with hapi js",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saviour123/h0.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "saviour gidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saviour123/h0/issues"
+  },
+  "homepage": "https://github.com/saviour123/h0#readme"
+}
