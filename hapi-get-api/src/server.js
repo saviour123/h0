@@ -17,7 +17,7 @@ server.route({
 // registers a module inside the instance of the api
 server.register(require('hapi-auth-jwt'), (err) => {
     server.auth.strategy('token', 'jwt', {
-        key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ',
+        key: 'vZiYpmTzqXMp8PpYXKwqc9ShQ1UhyAfy',
         verifyOptions:{
             algorithms: ['HS256'],
         }

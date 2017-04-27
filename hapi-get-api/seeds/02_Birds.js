@@ -6,7 +6,7 @@ exports.seed = function seed( knex, Promise ) {
     var rows = [
 
         {
-            owner: 'f3fc4f70-2b4f-11e7-aabb-183da26ab8c4',
+            owner: 'f03ede7c-b121-4112-bcc7-130a3e87988c',
             species: 'Columbidae',
             name: 'Pigeon',
             picture_url: 'http://pngimg.com/upload/pigeon_PNG3423.png',
@@ -16,7 +16,7 @@ exports.seed = function seed( knex, Promise ) {
         },
 
         {
-            owner: '571b1fdc-2b50-11e7-aabb-183da26ab8c4',
+            owner: 'f03ede7c-b121-4112-bcc7-130a3e87988c',
             species: 'Zenaida',
             name: 'Mourning dove',
             picture_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mourning_Dove_2006.jpg/220px-Mourning_Dove_2006.jpg',

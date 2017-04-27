@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
             username: 's_salma123',
             password: 's_salma123',
             email: 'salma@example.com',
-            guid: '228d04f6-a553-40eb-a9ad-879752289caf',
+            guid: '571b1fdc-2b50-11e7-aabb-183da26ab8c4',
             created_at: currentTime,
         
         }
