@@ -49,7 +49,7 @@ server.route({
         
         }).catch((err) => {
             
-            reply('server-side erro');
+            reply('server-side error-injected');
         });     
     }
 });
