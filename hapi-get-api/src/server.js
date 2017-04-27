@@ -1,5 +1,5 @@
 import Hapi from 'hapi';
-import Knex form './knex.js';
+import Knex from './knex.js';
 
 const server = new Hapi.Server();
 
@@ -47,7 +47,7 @@ server.route({
                 data: results,
             });
         
-        }).catch({
+        }).catch((err) => {
             
             reply('server-side erro');
         });     
