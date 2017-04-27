@@ -1,7 +1,6 @@
 const Hapi = require('hapi');
-// const handlerbars = require('handlebars');
-// Create server connection instance
 const server = new Hapi.Server();
+
 server.connection({ port: 3000 });
 
 const handler = function(request, reply){
@@ -25,17 +24,26 @@ server.register(require('vision'), (err) => {
   });
 
   server.route({
-          method: 'GET',
-          path: '/',
-          handler: function(request, reply){
-          var data = {
-              title: 'This is index',
-              message: 'Hello world, handlebars things'
-          };
+      method: 'GET',
+      path: '/',
+      handler: function(request, reply){
+      var data = {
+        title: 'This is index',
+        message: 'Hello world, handlebars things'
+      };
 
-          return reply.view('index', data);
-          }
+      return reply.view('index', data);
+      }
       });
+
+
+  server.route({
+      method: ' GET',
+      path: '/',
+      handler: function(request, reply){
+        
+      };
+  });
 
 });
 
